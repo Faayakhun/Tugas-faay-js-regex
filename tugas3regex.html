@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         li{
+        display:inline;
+    }
+    /* supaya navigasinya di kanan */
+    nav#main li{
+        float: right;
+        margin-right: 20px;
+    }
+    </style>
+</head>
+<body>
+    <nav id="main">
+        <ul>
+            <li><a href="tugas3regex.html">tugas3</a></li>
+            <li><a href="tugas2regex.html">tugas2</a></li>
+            <li><a href="index.html">tugas1</a></li>
+        </ul>
+    </nav>
+    <br/>
+    <input type="text" class="cari">
+    <button id="cariYangSama" onclick="cariYangSama()">cari</button>
+    <p class="result"></p>
+    <script src="tugas3regex.js"></script>
+</body>
+</html>
